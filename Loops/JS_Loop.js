@@ -97,6 +97,8 @@ console.log('========================');
 
 ////////////////////////////////////////////////////////////////////////////////
 
+//While loop though an array
+
 // var randomStuff = ['apple', 3.14, 7608, true, false, undefined, ['apple', 'ball', 'cat'], 4543, 'lastObject'];
 //
 // var x = 0;
@@ -108,11 +110,23 @@ console.log('========================');
 
 ////////////////////////////////////////////////////////////////////////////////
 
-var otherSuff = ['apple', 3.14, 7608, true, false, undefined, ['apple', 'ball', 'cat'], 4543, 'lastObject'];
+//Reverse while loop through an array
 
-var num = otherSuff.length - 1;
+// var otherSuff = ['apple', 3.14, 7608, true, false, undefined, ['apple', 'ball', 'cat'], 4543, 'lastObject'];
+//
+// var num = otherSuff.length - 1;
+//
+// while (num >= 0) {
+//   console.log(otherSuff[num])
+//   num--;
+// }
 
-while (num >= 0) {
-  console.log(otherSuff[num])
-  num--;
-}
+////////////////////////////////////////////////////////////////////////////////
+
+// var cars = ['lambo', 'bmw', 'tesla'];
+//
+// var num = 0;
+//
+// while (num < cars.length) {
+//   console.log(cars[num]);
+// }
